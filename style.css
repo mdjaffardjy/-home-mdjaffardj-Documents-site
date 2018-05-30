@@ -50,6 +50,16 @@ footer {
 	margin:0 10px 0 20px;
 }
 
+.illusl {
+	float:left;
+	margin: 0 15px 0 30px;
+}
+
+.illusr {
+	float:right;
+	margin:0 15px 0 30px;
+}
+
 /*creation du menu de navigation*/
 ul {
     list-style-type: none;
