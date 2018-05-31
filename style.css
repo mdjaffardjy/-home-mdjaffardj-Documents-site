@@ -50,6 +50,27 @@ footer {
 	margin:0 10px 0 20px;
 }
 
+.illusl {
+	float:left;
+	margin: 0 15px 0 30px;
+}
+
+.illusr {
+	float:right;
+	margin:0 15px 0 30px;
+}
+
+.illusc {
+	float:center;
+	margin:5px 30% 5px 30%;
+	width: 40%;
+}
+
+.link {
+	color: Chocolate;
+}
+
+
 /*creation du menu de navigation*/
 ul {
     list-style-type: none;

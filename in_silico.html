@@ -23,16 +23,33 @@
       			<a href="in_silico.html"><em>in silico</em></a>
       		    </div>
       		</li>
-      		<li><a href="simulation.html">Votre campus</a></li>
+      		<li><a href="simulation.html">Exemple de simulation</a></li>
       		<li><a href="remerciments.html">Remerciments</a></li>
+      		<li><a href="sources.html">Sources</a></li>
 		</ul>
 		
 		
     <article>
-      <h2>Création de notre interface graphique</h2>
-      <p class="justif">Ceci est un paté expliquant l'interface
+      <h2>Concevoir un modèle n'est pas  chose facile</h2>
+      <p class="justif">Avant de nous lancer dans des recherches poussées sur la conception de notre interface graphique, nous avions dans l'idée de créer quelque chose de très interactif, ou l'utilisateur n'aurait qu'à placer directement sur l'interface ses bâtiments et obstacles potentiels et lancer la simulation.<br/>
+      <img class="illusc" src="img/interface.png" height = 200 /img>
+	  <br/>
       </p>
-     
+      
+      <p class="justif">Nous avons cherché dans la littérature quel modèle déjà existant se rapprochait le plus de ce que nous voulions et plusieurs d'entre eux se sont démarqué des autres:<br/><br/>
+      
+       <strong>L'algorithme de Prim</strong>: Pour en savoir plus <a class="link" href="https://fr.wikipedia.org/wiki/Algorithme_de_Prim">cliquez ici</a>. <br/><br/>
+       
+       <strong>L'algorithme de Kruskal</strong>: Pour en savoir plus <a class="link" href="https://fr.wikipedia.org/wiki/Algorithme_de_Kruskal">cliquez ici</a>. <br/><br/>
+       
+       <strong>Arbre couvrant de poids minimal</strong>: Pour en savoir plus <a class="link" href="https://fr.wikipedia.org/wiki/Arbre_couvrant_de_poids_minimal">cliquez ici</a>. <br/><br/>
+       
+       C'est finalement plutôt vers ce dernier que nous nous sommes tournés. En effet, c'est celui ci qui imitait au mieux le comportement du blob et qui nous permettait d'obtenir les chemins les plus optimaux.
+       </p>
+       <p class="justif">Afin de mieux comprendre comment nous devions procéder nous avons fait appelle à Jeff Jones, un professeur ayant déjà modélisé le comportement du blob avec un algorithme d'arbre couvrant de poids minimal. Ce dernier a accepté de nous venir en aide et à été d'une aide précieuse pour réaliser le code de notre interface.
+       </p>
+      
+      
     </article>
 
     
