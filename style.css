@@ -24,6 +24,11 @@ h2 {
   color: rgba(230, 184, 0, 1);
 }
 
+h3 {
+  color: rgba(230, 184, 0, 1);
+}
+
+
 article {
   float: left;
   background-color: rgba(13, 13,13, 0.9);
