@@ -4,6 +4,7 @@ body {
 	background-color:black;
 	background-repeat:no-repeat;
 	background-position: 50% 110px;
+	cursor:url("cursor.cur"),auto;
 }
 
 header {
@@ -57,18 +58,32 @@ footer {
 
 .illusl {
 	float:left;
-	margin: 0 15px 0 30px;
+	margin: 5px 5px 5px 5px;
+	width: 30%;
+	height: 30%;
 }
 
 .illusr {
 	float:right;
-	margin:0 15px 0 30px;
+	margin:5px 5px 5px 5px;
+	width: 40%;
+	height: 40%;
 }
 
 .illusc {
 	float:center;
-	margin:5px 30% 5px 30%;
-	width: 40%;
+	margin:5px 32% 5px 32%;
+	width: 36%;
+	height: 50%;
+}
+
+.illusr_simu {
+	float:right;
+	margin:0px 40px 5px 5px;
+	width: 35%;
+	display: inline-block;
+	vertical-align: middle;
+	
 }
 
 .link {
