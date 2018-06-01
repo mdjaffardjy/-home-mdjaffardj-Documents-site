@@ -59,20 +59,30 @@ footer {
 	float:left;
 	margin: 5px 5px 5px 5px;
 	width: 30%;
-	height: 30%
+	height: 30%;
 }
 
 .illusr {
 	float:right;
 	margin:5px 5px 5px 5px;
 	width: 40%;
-	height: 40%
+	height: 40%;
 }
 
 .illusc {
 	float:center;
 	margin:5px 32% 5px 32%;
 	width: 36%;
+	height: 50%;
+}
+
+.illusr_simu {
+	float:right;
+	margin:0px 40px 5px 5px;
+	width: 35%;
+	display: inline-block;
+	vertical-align: middle;
+	
 }
 
 .link {
