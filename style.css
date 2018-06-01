@@ -57,18 +57,23 @@ footer {
 
 .illusl {
 	float:left;
-	margin: 0 15px 0 30px;
+	margin: 5px 5px 5px 5px;
+	width: 30%;
+	height: 30%
 }
 
 .illusr {
 	float:right;
-	margin:0 15px 0 30px;
+	margin:5px 5px 5px 5px;
+	width: 40%;
+	height: 40%
 }
 
 .illusc {
 	float:center;
 	margin:5px 30% 5px 30%;
 	width: 40%;
+	height: 40%
 }
 
 .link {
