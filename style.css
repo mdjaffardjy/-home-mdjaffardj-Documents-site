@@ -86,6 +86,11 @@ footer {
 	
 }
 
+.legend{
+	text-align: center;
+	color: rgba(255, 173, 51,1);
+}
+
 .link {
 	color: Chocolate;
 }
